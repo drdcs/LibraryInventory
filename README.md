@@ -14,6 +14,20 @@ Project Prerequisites:
 We will proceed with the microservice architecture, First we will build the event producer where the scanning events will send through the kafka producer and the events will be received through the kafka consumer.
 
 The first part of the problem is designing the producer ( as shown in fig. microservice 1). We will build the kafka producer through the spring boot application and the results need to be invoked through events.
+- There would be two processes on the Library Producer Event.
+    - New Book - Post Endpoint.
+        ```json
+      {
+          "book": {
+              "bookId": 123,
+              "bookName": "Design Kafka Library Inventory",
+              "bookAuthor": "Dip"
+          },
+          "libraryEventId": null
+      }
+
+        ```
+    - Update Book - Put Endpoint.
 
 The second part is building a consumer system where we need to read the information through the kafka topic and save the result in a database.
 
