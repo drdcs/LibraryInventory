@@ -1,9 +1,9 @@
 0
-20
+18
 __consumer_offsets 22 0
 __consumer_offsets 4 0
 __consumer_offsets 7 0
-library-events 0 0
+library-events 0 5
 __consumer_offsets 46 0
 __consumer_offsets 25 0
 __consumer_offsets 49 0
@@ -11,11 +11,9 @@ __consumer_offsets 16 0
 __consumer_offsets 28 0
 __consumer_offsets 31 0
 __consumer_offsets 37 0
-library-events 2 1
 __consumer_offsets 19 0
 __consumer_offsets 13 0
 __consumer_offsets 43 0
-library-events 1 2
 __consumer_offsets 1 0
 __consumer_offsets 34 0
 __consumer_offsets 10 0
