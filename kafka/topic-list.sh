@@ -1,0 +1,1 @@
+$KAFKA_HOME/bin/kafka-topics --zookeeper  localhost:2181 --list
